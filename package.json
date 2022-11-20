@@ -21,7 +21,9 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "hello-world": "npm test helloWorld.spec.js --silent",
+    "repeat-string": "npm test repeatString.spec.js --silent"
   },
   "eslintConfig": {
     "root": true
