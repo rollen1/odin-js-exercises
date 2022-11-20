@@ -22,8 +22,9 @@
   },
   "scripts": {
     "test": "jest",
-    "hello-world": "npm test helloWorld.spec.js --silent",
-    "repeat-string": "npm test repeatString.spec.js --silent"
+    "01": "npm test helloWorld.spec.js --silent",
+    "02": "npm test repeatString.spec.js --silent",
+    "03": "npm test reverseString.spec.js --silent"
   },
   "eslintConfig": {
     "root": true
