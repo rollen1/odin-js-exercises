@@ -2,6 +2,8 @@ const reverseString = function(string) {
 
     return string.split([]).reverse().join().replaceAll(",", "");
 
+    //  return string.split('').reverse().join('');
+
 };
 
 // Do not edit below this line
