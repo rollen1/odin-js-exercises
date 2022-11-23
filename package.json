@@ -24,7 +24,11 @@
     "test": "jest",
     "01": "npm test helloWorld.spec.js --silent",
     "02": "npm test repeatString.spec.js --silent",
-    "03": "npm test reverseString.spec.js --silent"
+    "03": "npm test reverseString.spec.js --silent",
+    "04": "npm test removeFromArray.spec.js --silent",
+    "05": "npm test sumAll.spec.js --silent",
+    "06": "npm test leapYears.spec.js --silent",
+    "07": "npm test tempConversion.spec.js --silent"
   },
   "eslintConfig": {
     "root": true
