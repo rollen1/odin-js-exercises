@@ -1,16 +1,18 @@
 const convertToCelsius = function(fahrenheit) {
 
-let toCelsius = Math.round(fahrenheit) - 32 * 0.5556;
+  let toCelsius = (fahrenheit - 32) * 5 / 9;
+  let celsiusFixed = parseFloat(toCelsius.toFixed(1));
 
-return toCelsius;
+  return celsiusFixed;
 
 };
 
 const convertToFahrenheit = function(celsius) {
   
   let toFahrenheit = celsius * 1.8 + 32;
+  let fahrenheitFixed = parseFloat(toFahrenheit.toFixed(1));
 
-  return toFahrenheit;
+  return fahrenheitFixed;
 
 };
 
