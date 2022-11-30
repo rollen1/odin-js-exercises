@@ -1,6 +1,7 @@
-const removeFromArray = function() {
+const removeFromArray = function(arr, value) {
 
-    Array.pop()
+const filteredArray = arr.filter(number => number !== value)
+return filteredArray;
 
 };
 
